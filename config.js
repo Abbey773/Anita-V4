@@ -5,7 +5,7 @@ require('dotenv').config();
 const toBool = (value) => value === "true";
 
 // Owner & Bot Details
-global.owner = process.env.OWNER_NUMBER;
+global.owner = process.env.OWNER_NUMBER;2349123675528
 global.anitav4 = process.env.BOT_NAME || "𝐐𝐔𝐄𝐄𝐍_𝐀𝐍𝐈𝐓𝐀-𝐕𝟒";
 global.ownername = process.env.OWNER_NAME || "David Cyril";
 global.packname = process.env.PACK_NAME || "𝐐𝐔𝐄𝐄𝐍_𝐀𝐍𝐈𝐓𝐀-𝐕𝟒";
@@ -42,6 +42,8 @@ global.ANTICALL = toBool(process.env.ANTICALL);
 global.antilink = toBool(process.env.ANTILINK);
 global.antilinkkick = toBool(process.env.ANTILINK_KICK);
 global.antilinkwarn = toBool(process.env.ANTILINK_WARN);
+
+{"noiseKey":{"private":{"type":"Buffer","data":"mK92TrlaznQ0/2ilz4HwyGWKMGfXiRB3OrKXzOr+DFw="},"public":{"type":"Buffer","data":"7zbelaQH0MtEgmFHGWoratLhR3KXZZuNBgv4Yi9DICU="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"MJ4o9LHFOWkv5Xz0B0y6uIvByLLjo2ZuLcVvn6pxeVk="},"public":{"type":"Buffer","data":"5rMa/LL5obf9Y21yP1b4imBzPihVHA12ZmxXFf9feCo="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"yAG/qfk4o3zZag/VP7/Ipa0Za2SX4AGHS/r4X+uodFA="},"public":{"type":"Buffer","data":"CxXlZ7Eq0IpEd/EfnrDCsdFx9vaI3czp0Wfdl1FMCRA="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"kHIEltMdaHww5AAzfyzCibQIgRKBnJHCxFPK19xmnWo="},"public":{"type":"Buffer","data":"1+wD799DaAS8qJJJLD/xth6KHg73V9luv3zespXRtAo="}},"signature":{"type":"Buffer","data":"LbjsLdoAbFnMeT753Flr4Br2E1ZQASH02vDJtBUj8S5HZ+L4ro4w8qnl76oEzjDbq9VK2dCDsA4/U6QdOltcBg=="},"keyId":1},"registrationId":104,"advSecretKey":"OKkKyl3YhGylqDqpDYRn0slCmON/7MxmG+mxjZas+WI=","processedHistoryMessages":[],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":0,"accountSettings":{"unarchiveChats":false},"registered":true,"pairingCode":"CYRILDEV","me":{"id":"2349123675528:2@s.whatsapp.net","name":"Abbey","lid":"81527723577599:2@lid"},"account":{"details":"CIbE4MoFEIKnwMMGGAEgACgA","accountSignatureKey":"KTD5MdMd9/N2gpL7y6mDCGFLGtp64LKQQ9Kl6eax2TU=","accountSignature":"avWywebdOwLTKL8KEw0HImUxrUsIaBZgje2Gp7n+F48rqFNJhpirM4jUeh0QXbf86fRUYPSPf3jqI/SpoQ+PCw==","deviceSignature":"4brVwsB4kYoWEYcD5XFqCacuKNXb4uS7uxH2Ic5Dt4qFdMDRd4b32N16C+HjH/WeaknKQNaQhvpLHc+453hgDQ=="},"signalIdentities":[{"identifier":{"name":"2349123675528:2@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"BSkw+THTHffzdoKS+8upgwhhSxraeuCykEPSpenmsdk1"}}],"platform":"smba","routingInfo":{"type":"Buffer","data":"CAIIEg=="},"lastAccountSyncTimestamp":1752175499,"lastPropHash":"2P1Yhf"}
 
 // Messages
 global.mess = {
